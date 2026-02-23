@@ -1,16 +1,15 @@
-## Hi there 👋
+<div align="center">
 
-<!--
-**decoyphrase/decoyphrase** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
+***“The best way to protect sensitive text is to make it worthless if exposed.”***
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+***“The safest place to store it is somewhere it cannot be deleted, destroyed, or lost.”***
+
+📘 [Documentation](https://docs.decoyphrase.com/) |
+🌐 [Official Website](https://decoyphrase.arweave.net/) |
+🛠️ [Decoy Phrase Generator](https://decoyphrase.arweave.net/download) |
+🗄️ [Decoy Phrase Permanent Storage](https://decoyphrasestorage.arweave.net/download) |
+
+𝕏 [X (Twitter)](https://x.com/DecoyPhrase) |
+📺 [YouTube Channel](https://www.youtube.com/@decoyphrase) |
+💬 [Discord Community](https://discord.com/invite/q9cYTxtagJ)
