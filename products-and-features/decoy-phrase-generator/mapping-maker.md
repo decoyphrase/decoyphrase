@@ -4,41 +4,26 @@ description: V 2.0.8
 
 # Mapping Maker
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ## What Is the Mapping Maker
 
-**Mapping Maker** functions as the core transformation engine within the Decoy Phrase system.\
-This component takes the original sensitive data as input and produces two separate outputs that have no meaning or value when standing alone.
+**Mapping Maker** functions as the core transformation engine within the Decoy Phrase Generator. This component takes the original sensitive data as input and produces two separate outputs that have no meaning or value when standing alone.
 
 The primary roles of the Mapping Maker include:
 
-* Generating [**decoy text**](../../core-concepts/two-part-security-model/decoy-text.md) that appears normal and non-suspicious
-* Generating a [**mapping file**](../../core-concepts/two-part-security-model/mapping-file.md) that serves as a technical guide for recovering the original data through the Text Generator
+* Generating [**decoy text**](https://docs.decoyphrase.com/~/changes/88/core-concepts/two-part-security-model/decoy-text) that appears normal and non-suspicious
+* Generating a [**mapping file**](https://docs.decoyphrase.com/~/changes/88/core-concepts/two-part-security-model/mapping-file) that serves as a technical guide for recovering the original data through the Text Generator
 
 ## What it contains
 
-**Mapping Maker** provides a set of components and information designed to help users create decoy text and mapping files accurately, consistently, and securely.
+**Mapping Maker** provides a set of components and information designed to help users create decoy text and mapping files accurately, consistently, and securely. Mapping Maker consists of three main sections, each section represents a distinct stage in the mapping lifecycle, ensuring accuracy, consistency, and recoverability.
 
-#### 1. ASCII Text
+### 1. ASCII Text
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure></div>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-The primary input field for entering a seed phrase, password, or other sensitive text.
-
-{% hint style="success" %}
-* All text is processed locally
-* Nothing is stored after the process is completed
-* Data is never sent to any server or third party
-{% endhint %}
-
-***
-
-#### 2. Details
-
-<div align="left"><figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure></div>
-
-This section displays statistical summaries of the text entered in the ASCII Text field, including:
+ASCII Text is the primary input field for entering the original seed phrase, password, or other sensitive data. This section displays statistical summaries of the sensitive data entered in the ASCII Text field, including:
 
 <details>
 
@@ -74,7 +59,7 @@ The total number of words in the text.
 
 <summary><strong>Max Frequency</strong></summary>
 
-The highest occurrence count of any single character in the text.\
+The maximum count of occurrences among all individual characters in the ASCII Text field.\
 This value is used as the basis for calculating the final mapping size.
 
 </details>
@@ -91,70 +76,55 @@ This value determines the final size of the mapping file.
 
 </details>
 
-<details>
-
-<summary><strong>Filled Slots</strong></summary>
-
-Indicates how many decoy slots have already been filled.
-
-* The final mapping cannot be saved if there are still empty slots
-* This ensures the mapping file is always complete and valid
-
-</details>
+{% hint style="success" %}
+* All text is processed locally
+* Nothing is stored after the process is completed
+* Data is never sent to any server or third party
+{% endhint %}
 
 ***
 
-#### 3. Draft Mapping
+### 2. Draft Mapping
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 Draft Mapping is a temporary mapping provided to help users fill in decoy values more easily.
 
 Its purposes include:
 
-* Acting as a preparation stage before generating the [final mapping](../../core-concepts/two-part-security-model/mapping-file.md)
+* Acting as a preparation stage before generating the [final mapping](https://docs.decoyphrase.com/~/changes/88/core-concepts/two-part-security-model/mapping-file)
 * Preventing users from having to work directly with a very large table
 * Serving as the primary interface during the decoy text creation process
 
-The final mapping will contain all 95 standard ASCII characters, with each character repeated until it reaches the Max Frequency value.
+It includes the following features:
 
-> For example, with a 12-word seed phrase, the final mapping may contain thousands of entries (e.g., 95 × \~20), making Draft Mapping essential for keeping the user experience manageable.
+**A. Bulk Edit Decoy Values**
 
-***
+> **Bulk Edit Decoy Values** is a fast input method that allows users to enter or modify multiple decoy values at once, without having to edit each entry individually in the Draft Mapping table.
 
-#### 4. Decoy Preview
+**Function:**
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure></div>
+* Enables batch input of decoy values.
+* Reduces manual, one-by-one editing.
+* Helps maintain consistency across large mappings.
 
-A preview of the decoy text generated from the Draft Mapping.
+**B. All Decoy Preview**
 
-{% hint style="info" %}
-* This preview is the actual decoy text
-* The decoy text must be saved by the user
-* It is used together with the mapping file during recovery
-{% endhint %}
+> **All Decoy Preview** provides a live view of how the complete decoy text will appear once generated.
 
-***
+**Function:**
 
-#### 5. Bulk Edit Decoy Values
-
-<div align="left"><figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure></div>
-
-A feature that allows mass editing of decoy values without modifying them one by one through the table.\
-It can be applied to:
-
-* Draft Mapping
-* [Final Mapping](../../core-concepts/two-part-security-model/mapping-file.md)
-
-This feature significantly speeds up large-scale decoy text adjustments.
+* Displays the decoy output in **paragraph mode** or **line-by-line mode**.
+* Serves as the point where the final decoy text is constructed.
+* Allows users to directly download the generated decoy text.
 
 ***
 
-#### 6. Final Mapping
+### 3. Final Mapping
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure></div>
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
-The [Final Mapping](../../core-concepts/two-part-security-model/mapping-file.md) is the completed mapping file generated by the Mapping Maker.
+The [Final Mapping](https://docs.decoyphrase.com/~/changes/88/core-concepts/two-part-security-model/mapping-file) section is the last stage where all decoy values are completed and validated before the mapping is finalized and stored. The final mapping will contain all 95 standard ASCII characters, with each character repeated until it reaches the Max Frequency value derived from the ASCII Text, ensuring uniform decoy distribution and reducing predictable patterns.
 
 {% hint style="info" %}
 **Key characteristics:**
@@ -166,13 +136,27 @@ The [Final Mapping](../../core-concepts/two-part-security-model/mapping-file.md)
 * Sequential pattern of the 95 standard ASCII characters, repeated until Max Frequency is reached.
 {% endhint %}
 
-***
+It includes the following features:
 
-#### 7. Auto Fill
+**A. Bulk Edit Decoy Values**
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+> **Bulk Edit Decoy Values** is a fast input method used to fill empty decoy slots in the Final Mapping, especially when users choose to manually define specific decoy words that are not available through autofill.
 
-Auto Fill is a method for automatically filling any remaining empty decoy slots in the final mapping.
+**Function:**
+
+* Allows batch input for remaining empty decoy entries.
+* Helps users enforce uniform decoy values across sensitive characters.
+* Reduces the risk of creating recognizable or predictable patterns in the final mapping.
+
+**B. Auto Fill**
+
+> **Auto Fill** is a method for automatically filling any remaining empty decoy slots in the Final Mapping.
+
+**Function:**
+
+* Completes unmapped decoy entries automatically.
+* Ensures no empty slots remain before finalization.
+* Provides a consistent and complete mapping structure.
 
 Available modes include:
 

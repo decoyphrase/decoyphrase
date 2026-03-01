@@ -1,6 +1,6 @@
 # Text Generator
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 The **Text Generator** is a component within Decoy Phrase Generator that is used to perform **data recovery**. Through the Text Generator, users can:
 
