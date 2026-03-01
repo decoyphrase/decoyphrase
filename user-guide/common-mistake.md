@@ -21,6 +21,18 @@ When you create a Mapping Maker project, the system automatically saves your pro
 
 <details>
 
+<summary><strong>Mixxing Decoy Patterns in Final Mapping</strong></summary>
+
+A common mistake is using a custom language or pattern that is not supported by Auto Fill, but failing to apply the same language and pattern consistently when completing the Final Mapping.
+
+If the Final Mapping is later found or inspected independently, inconsistent decoy languages or patterns can create detectable or suspicious structures.
+
+To avoid this, ensure that all remaining empty decoy slots in the Final Mapping are filled using the same language and pattern as the existing decoy values. For faster and more consistent input, use the **Bulk Edit** feature with the target set to **Final** to complete the remaining decoy columns.
+
+</details>
+
+<details>
+
 <summary><strong>Not Deleting Mapping Maker Projects After Completion</strong></summary>
 
 Leaving Mapping Maker projects on your device after finishing is strongly discouraged, especially when using a non-personal device.

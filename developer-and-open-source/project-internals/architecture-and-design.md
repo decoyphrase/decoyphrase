@@ -38,7 +38,7 @@ We use Zustand for managing client state (e.g., wallet connection status, theme 
 {% endstep %}
 
 {% step %}
-### Mobile Architecture (decoyphrase\_mobile)
+### Mobile Architecture (decoyphrase-app)
 
 The mobile application is an air-gapped vault in your pocket. It is designed to function fully without network access.
 
@@ -67,7 +67,7 @@ We separate concerns using the Model-View-Controller (MVC) approach via GetX:
 {% endstep %}
 
 {% step %}
-### Core & Cryptography (decoyphrase)
+### Core & Cryptography (decoyphrase-core)
 
 The "Core" represents the shared brain of the ecosystem.
 

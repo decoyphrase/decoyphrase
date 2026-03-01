@@ -6,12 +6,12 @@ We take the security of DecoyPhrase seriously. Because our software handles sens
 
 We only provide security updates for the latest stable release.
 
-| Project                 | Version | Supported            |
-| ----------------------- | ------- | -------------------- |
-| **decoyphrase-web**     | 1.x.x   | :white\_check\_mark: |
-| **decoyphrase\_mobile** | 1.x.x   | :white\_check\_mark: |
-| **decoyphrase** (Core)  | 1.x.x   | :white\_check\_mark: |
-| _Older versions_        | < 1.0.0 | :x:                  |
+| Project              | Version | Supported            |
+| -------------------- | ------- | -------------------- |
+| **decoyphrase-web**  | 1.x.x   | :white\_check\_mark: |
+| **decoyphrase-app**  | 2.x.x   | :white\_check\_mark: |
+| **decoyphrase-core** | 2.x.x   | :white\_check\_mark: |
+| _Older versions_     | < 1.0.0 | :x:                  |
 
 ## 2. Reporting a Vulnerability
 
@@ -19,14 +19,20 @@ We only provide security updates for the latest stable release.
 Do NOT open a public GitHub issue for security vulnerabilities.
 {% endhint %}
 
-If you discover a security vulnerability in any part of the DecoyPhrase ecosystem, please report it privately via email.
+If you discover a security vulnerability in any part of the DecoyPhrase ecosystem, please report it **privately** through one of the channels below.
 
-* **Email:** `security@decoyphrase.org`
-* **Subject:** `[VULN] Short description`
-* **Body:** Please include:
-  * Steps to reproduce.
-  * Affected versions.
-  * Proof of Concept (PoC) code or screenshots.
+**Email**
+
+* Address: support@decoyphrase.com
+* Subject: `[VULN] Short description`
+* Body (please include):
+  * Steps to reproduce
+  * Affected versions
+  * Proof of Concept (PoC) code or screenshots
+
+**Discord (Private Message)**
+
+* You may also report vulnerabilities via **direct message** on our official Discord server: [https://discord.gg/yqVt2YwN](https://discord.gg/yqVt2YwN)
 
 ### Response Timeline
 

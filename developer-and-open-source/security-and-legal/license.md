@@ -1,6 +1,6 @@
 # License
 
-The **DecoyPhrase** ecosystem (including `decoyphrase-web`, `decoyphrase_mobile`, and `decoyphrase` core) is open-source software licensed under the **MIT License**.
+The **DecoyPhrase** ecosystem (including `decoyphrase-web`, `decoyphrase-app`, and `decoyphrase-core` core) is open-source software licensed under the **MIT License**.
 
 ***
 
