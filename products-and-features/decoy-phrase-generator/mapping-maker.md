@@ -4,7 +4,7 @@ description: V 2.0.8
 
 # Mapping Maker
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ## What Is the Mapping Maker
 
@@ -106,7 +106,7 @@ Indicates how many decoy slots have already been filled.
 
 #### 3. Draft Mapping
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 Draft Mapping is a temporary mapping provided to help users fill in decoy values more easily.
 

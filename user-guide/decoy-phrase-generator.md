@@ -30,7 +30,7 @@ Click the **“Generate Draft Mapping”** button to display the Draft Mapping t
 Fill the decoy text column in the Draft Mapping with the characters or words you want.
 
 {% hint style="info" %}
-* To make this easier, use the **“Bulk Edit”** feature by selecting the target **“Draft”**, then enter your characters or words horizontally in the bulk field according to the number of ASCII columns shown in the draft mapping.
+* To make this easier, use the **“Bulk Edit”** feature, then enter your characters or words horizontally in the bulk field according to the number of ASCII columns shown in the draft mapping.
 * The draft mapping is arranged sequentially based on the ASCII characters found in the entered sensitive text, making it easier for users to fill in decoy values.
 * At this stage, you can already view and download your decoy text in decoy preview, which will be used as one of the required elements to recover your sensitive text later.
 {% endhint %}
@@ -77,6 +77,20 @@ Store both files in separate locations for long-term storage and easy access. Fo
 
 {% stepper %}
 {% step %}
+### Upload Your Mapping File
+
+Upload the corresponding **Mapping File** that was generated when you created the decoy text.
+
+{% hint style="info" %}
+This file contains the transformation rules required to reconstruct your original sensitive text.
+{% endhint %}
+
+{% hint style="warning" %}
+Without the correct mapping file, recovery is not possible.
+{% endhint %}
+{% endstep %}
+
+{% step %}
 ### Select Decoy → ASCII Mode
 
 Choose the **Decoy → ASCII** mode to indicate that you are recovering sensitive text from a decoy text using an ASCII-based mapping.
@@ -93,20 +107,6 @@ Paste or type your generated **Decoy Text** into the input field.
 
 {% hint style="warning" %}
 Make sure the decoy text matches exactly the text generated during the mapping process, as any difference may prevent correct recovery.
-{% endhint %}
-{% endstep %}
-
-{% step %}
-### Upload Your Mapping File
-
-Upload the corresponding **Mapping File** that was generated when you created the decoy text.
-
-{% hint style="info" %}
-This file contains the transformation rules required to reconstruct your original sensitive text.
-{% endhint %}
-
-{% hint style="warning" %}
-Without the correct mapping file, recovery is not possible.
 {% endhint %}
 {% endstep %}
 

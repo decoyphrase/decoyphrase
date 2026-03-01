@@ -59,17 +59,18 @@ Browsers may automatically save usernames, passwords, or session data locally. T
 
 <summary><strong>Storing Decoy Text and Mapping File in the Same Location</strong></summary>
 
-Never store your Decoy Text and Mapping File in the same place.
+A critical mistake is storing the Decoy Text and its corresponding Mapping File in the same location, including the same permanent storage.
 
-{% hint style="info" %}
-Both files must be stored in separate locations to avoid a single point of failure.\
-If only one of the files is found, it should remain completely useless.
+Both files must be stored in separate locations to avoid a single point of failure. If only one of the files is found, it should remain completely useless.
 
-For example:
+**For example:**
 
-* The Decoy Text may be stored as plain text (e.g., notes, social media drafts, or private text storage).
-* The Mapping File (JSON format) should be stored securely on a device or protected storage medium.
-{% endhint %}
+* The **Decoy Text** may be stored as plain text (e.g., notes, social media drafts, or private text storage).
+* The **Mapping File** (JSON format) should be stored securely on a device or protected storage medium.
+
+When using **permanent storage**, it is strongly recommended to enable **multi-password management**. This adds an additional security layer by ensuring that access to the stored file requires more than a single password, reducing the risk of unauthorized access even if one credential is compromised.
+
+Permanent storage should be treated as a durability layer, not a trust layer. Separation and layered access controls remain essential, as security failures often result from human error rather than flaws in the system architecture itself.
 
 </details>
 
@@ -83,6 +84,6 @@ Always ensure that your Mapping File is saved with the `.json` file extension.
 If the file name does not end with `.json`, the Mapping File may not function correctly during recovery.
 {% endhint %}
 
-This commonly happens when users rename the file or change the file name manually in the Save Location dialog, causing the system to fail to recognize the file format.
+This commonly happens when users rename the file or manually change the file name in the **Save Location dialog used when saving the Mapping File directly from the generator**, causing the system to fail to recognize the file format.
 
 </details>

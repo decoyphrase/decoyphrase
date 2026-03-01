@@ -1,6 +1,6 @@
 # Text Generator
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 The **Text Generator** is a component within Decoy Phrase Generator that is used to perform **data recovery**. Through the Text Generator, users can:
 
@@ -61,10 +61,6 @@ Used to **upload the Mapping File** that will be applied during the generate or 
 
 Displays basic information about the currently active Mapping File.
 
-{% hint style="warning" %}
-If a mapping table appears below, it indicates that a Mapping Maker project is saved within the application.
-{% endhint %}
-
 ## How the Text Generator Works
 
 #### 1. Original Data Recovery (Decoy → ASCII)
@@ -103,7 +99,7 @@ To retrieve or generate Decoy Text (typically for testing purposes), **two compo
 * Through this process, the Decoy Text is generated
 {% endhint %}
 
-{% hint style="danger" %}
+{% hint style="warning" %}
 Important Notes
 
 * The Text Generator **does not store any data**
