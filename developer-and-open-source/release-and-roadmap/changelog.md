@@ -6,7 +6,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 {% updates format="full" %}
 {% update date="2026-03-01" %}
-## \[Unreleased]
+## \[1.1.0] - 2026-03-01
 
 #### Added
 
