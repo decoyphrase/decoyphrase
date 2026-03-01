@@ -2,7 +2,7 @@
 
 Our development is driven by a commitment to privacy, security, and community feedback. This document outlines the current state of the DecoyPhrase ecosystem and our plans for the future.
 
-## 1. Current Status (v1.0 - MVP)
+## 1. **Initial Implementation** <a href="#id-1.-initial-implementation" id="id-1.-initial-implementation"></a>
 
 We have successfully launched the Minimum Viable Product (MVP) across all three pillars of our ecosystem.
 
@@ -14,46 +14,39 @@ We have successfully launched the Minimum Viable Product (MVP) across all three 
 
 We are actively working on the following features. Priorities may shift based on community contribution and feedback.
 
-{% stepper %}
-{% step %}
-### Decoy Phrase Generator 2.0 <mark style="color:$warning;">(Q1 2026)</mark> <mark style="color:yellow;">\[Progress]</mark>
+{% updates format="full" %}
+{% update date="2026-02-14" %}
+## Decoy Phrase Generator 2.0
+
+STATUS: [<mark style="color:$success;">**Delivered**</mark>](https://decoyphrase.arweave.net/download)
 
 An updated version of the Decoy Phrase Generator with an additional **Split ASCII Text** feature. This enhancement allows decoy phrases to be generated in a more **human-readable** form, enabling users to customize repeated or familiar words while maintaining structural plausibility. The goal is to produce decoy seed phrases that look natural and believable to humans, without exposing real cryptographic secrets.
+{% endupdate %}
 
-> ### **Use Case**
->
-> * Creating realistic decoy seed phrases for wallet backups and security drills
-> * Protecting real seed phrases during coercion or social engineering attempts
-> * Allowing users to customize decoy text while preserving entropy distribution
-> * Improving memorability and plausibility of decoy phrases without compromising security
-{% endstep %}
+{% update date="2026-04-01" %}
+## <mark style="color:$primary;">Decoy Autofill Browser Extension</mark>
 
-{% step %}
-### Decoy Autofill Browser Extension <mark style="color:$warning;">(Q2 2026)</mark> <mark style="color:$danger;">**\[In Research]**</mark>
+STATUS: <mark style="color:$danger;">**In Research**</mark>
 
 A browser autofill extension designed to prevent sensitive credentials from being visually exposed. Even when autofill fields are unhidden, the displayed password remains **encrypted or substituted**, while the real credential is silently injected only at the moment of legitimate form submission. This design ensures that sensitive data is never visible on screen.
+{% endupdate %}
 
-> ### **Use Case**
->
-> * Preventing credential theft during screen sharing or remote access sessions
-> * Protecting users when their device is temporarily accessed by others
-> * Mitigating social engineering attacks that rely on visual confirmation of passwords
-> * Reducing the risk of credential leakage from shoulder surfing or malicious assistance tools
-{% endstep %}
+{% update date="2026-06-01" %}
+## <mark style="color:$primary;">Decoy Phrase Generator – Play Store & App Store Availability</mark>&#x20;
 
-{% step %}
-### Proof of History Time Capsule <mark style="color:$warning;">(Q3 2026)</mark> <mark style="color:$danger;">**\[In Research]**</mark>
+STATUS: <mark style="color:$danger;">**Planned (Community-Driven)**</mark>
+
+This roadmap outlines the planned availability of the Decoy Phrase Generator on the Play Store and App Store. It provides visibility into the development, review, and release stages required before the application can be officially downloaded from mobile app marketplaces. Until then, the generator remains accessible through supported distribution channels while maintaining the same security and privacy guarantees.
+{% endupdate %}
+
+{% update date="2026-08-01" %}
+## <mark style="color:$primary;">Proof of History Time Capsule</mark>
+
+STATUS: <mark style="color:$danger;">**In Research**</mark>
 
 A decentralized, trustless application that enables users to lock encrypted digital content (text, messages, or cryptographic keys) in time. Digital capsules can only be accessed after a specific, predetermined moment, ensuring that sensitive information remains sealed until the exact time intended—without relying on third parties.
-
-> **Use Case**
->
-> * Securely inheriting digital keys or sensitive text without involving third parties
-> * Scheduling the release of confidential information at a specific future date
-> * Creating cryptographically verifiable digital legacies
-> * Ensuring time-based access control resistant to manipulation or early disclosure
-{% endstep %}
-{% endstepper %}
+{% endupdate %}
+{% endupdates %}
 
 ## 3. Contributing to the Roadmap
 
@@ -76,3 +69,5 @@ Better yet, fork the repo and submit a PR! See How to Contribute:
 * ./how\_to\_contribute.md
 {% endstep %}
 {% endstepper %}
+
+You can contribute to the roadmap in several ways. One way is to join our Discord and share your ideas, feature suggestions, or security considerations. Join [here!](https://discord.com/invite/q9cYTxtagJ)
