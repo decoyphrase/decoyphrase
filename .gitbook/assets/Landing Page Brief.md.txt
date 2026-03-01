@@ -1,0 +1,18 @@
+## **Landing Page Brief**
+
+
+
+1. Top Navigation Bar
+2. Header \& Hero Section
+3. Powered By
+4. Pros and Cons of Seed Phrase Backup
+5. What Decoy Phrase Delivers
+6. How Decoy Phrase Works
+7. Security Through Separation
+8. Frequently Asked Questions (FAQ)
+9. Footer
+
+
+
+
+
