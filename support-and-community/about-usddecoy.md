@@ -1,7 +1,3 @@
----
-hidden: true
----
-
 # About $DECOY
 
 <figure><img src="../.gitbook/assets/coin.png" alt="" width="375"><figcaption></figcaption></figure>
@@ -11,7 +7,7 @@ $DECOY is a 100% community-driven crypto token built on the Solana network and l
 As a non-profit-oriented token, $DECOY is not designed to generate commercial profit. Instead, the standard 1% creator fee from trading volume is automatically distributed according to the protocol mechanism — with 60% allocated to the team fund wallet and 40% directed toward automatic liquidity compounding.
 
 ```
-CA : Soon
+CA : TpML47k7H2kxDkqULLNdeF2mJP5YSoMk1UCwgNkBAGS
 ```
 
 ## Background
@@ -27,7 +23,7 @@ The $DECOY token has a **fixed total supply of 999.01 million tokens**. The enti
 $DECOY's tokenomics follow the standard [Bags.fm](https://bags.fm) launchpad mechanism:
 
 * **Total Supply:** 999.01 million tokens
-* **Circulating Supply:** 939.96 million tokens (94% of total supply), representing full public distribution at launch with no private sale
+* **Circulating Supply:** 934.89 million tokens (94% of total supply), representing full public distribution at launch with no private sale
 * **Token Model:** No inflation and no additional token issuance after launch.&#x20;
 * **Initial Allocation:**  At launch, DecoyPhrase acquired 6% of the total token supply via early allocation.
 
