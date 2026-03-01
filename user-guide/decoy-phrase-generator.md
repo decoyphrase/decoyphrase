@@ -1,6 +1,8 @@
 # Decoy Phrase Generator
 
-<p align="center"><a href="https://www.youtube.com/watch?v=d07MDSrPE1E&#x26;t=1s"><img src="https://docs.decoyphrase.com/~gitbook/image?url=https%3A%2F%2F2072286647-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FaV4lmBtlwYvsQLPxi2KC%252Fuploads%252FUC8Uuefm81wiT60OePUQ%252Fyoutub11.png%3Falt%3Dmedia%26token%3D183da3c9-3db2-4f6f-800d-d20ba411d700&#x26;width=768&#x26;dpr=3&#x26;quality=100&#x26;sign=3c8d8cd3&#x26;sv=2" alt="Decoy Phrase – Secure Your Keys"></a>                                   <a href="https://www.youtube.com/watch?v=9w2Pb9w6hkU&#x26;t=5s"><img src="https://docs.decoyphrase.com/~gitbook/image?url=https%3A%2F%2F2072286647-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FaV4lmBtlwYvsQLPxi2KC%252Fuploads%252FYBnt6cf2fgwr34qChzAT%252Fyoutube13.png%3Falt%3Dmedia%26token%3D77a47ac1-318a-4bd3-b9de-080853b74ea0&#x26;width=768&#x26;dpr=3&#x26;quality=100&#x26;sign=70e5361a&#x26;sv=2" alt="Decoy Phrase – Secure Your Keys"></a></p>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption><p><a href="https://www.youtube.com/watch?v=d07MDSrPE1E&#x26;list=PLMhh9Ps-1m2nAj_geBQsKKujbVTej_KpW&#x26;index=2"><strong>Watch Tutorioal</strong></a></p></figcaption></figure></div>
+
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption><p><a href="https://www.youtube.com/watch?v=9w2Pb9w6hkU"><strong>Watch Tutorial</strong></a></p></figcaption></figure></div>
 
 Inside the Decoy Phrase Generator, there are two main components: **Mapping Maker** and **Text Generator.** Both have different function
 

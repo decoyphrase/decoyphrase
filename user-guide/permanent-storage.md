@@ -1,5 +1,7 @@
 # Permanent Storage
 
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption><p><a href="https://youtu.be/73sBFH21tHg?si=v-ZgirIv5TaZDMST"><strong>Watch Tutorial</strong></a></p></figcaption></figure></div>
+
 ## How to Use Permanent Storage
 
 {% stepper %}
