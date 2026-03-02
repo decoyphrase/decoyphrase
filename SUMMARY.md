@@ -58,5 +58,4 @@
 * [Support & Community](support-and-community/README.md)
   * [Feedback & Issue Reports](support-and-community/feedback-and-issue-reports.md)
   * [About Donations](support-and-community/about-donations.md)
-  * [About $DECOY](support-and-community/about-usddecoy.md)
 * [Glossary](glossary.md)
